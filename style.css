@@ -71,6 +71,7 @@ h3{
   height: 200px;
 }
 .flexx{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
