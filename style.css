@@ -46,8 +46,7 @@ h3{
   height: 150px;
   border-radius: 100px;
   float: left;
-  margin-left: 12%;
-  margin-bottom: 40px;
+  margin: 40px;
 }
 .btn{
   width: 100%;
