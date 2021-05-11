@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Main;
+    src: url(../fonts/Droid.ttf);
+  }
+body{
+      font-family: Main;
+      margin:0;
+}
+nav{
+  height: 70px;
+  background: white;
+  margin-bottom: 24px;
+}
+/*
+slide
+*/
+.carousel-inner {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  border: solid 2px black;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.best1{
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+}
+h3{
+  text-align: right;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  transform: rotatex(10deg) rotatey(21deg) translate(-33px, 29px);
+  z-index: 999;
+}
+.mark{
+  width: 100%;
+  margin-top: 100px;
+}
+.mark .icon-shop{
+  background: #26262691;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  float: left;
+  margin-left: 12%;
+  margin-bottom: 40px;
+}
+.btn{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn a{
+  border: solid 2px black;
+  padding: 6px 50px;
+  color: black;
+  transition: 0.4s;
+}
+.btn a:hover {
+  color: #ffffff;
+  text-decoration: initial;
+  background: black;
+  transition: 0.4s;
+}
+.footer{
+  background: #222;
+  width: 100%;
+  height: 200px;
+}
